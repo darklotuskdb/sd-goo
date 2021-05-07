@@ -1,6 +1,6 @@
-# sd-goo
+# Enumerate Subdomains Through Google Dorks
 
-Enumerate Subdomains Through Google Dorks
+sd-goo.sh
 
 ## Feature
 
