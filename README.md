@@ -7,7 +7,8 @@ Enumerate Subdomains Through Google Dorks
 Linux
 
 ```
-git clone https://github.com/darklotuskdb/sd-goo.git && cd sd-goo && chmod +x sd-goo.sh
+$ git clone https://github.com/darklotuskdb/sd-goo.git && cd sd-goo && chmod +x sd-goo.sh
+$ ./sd-goo.sh target.com
 ```
 
 ### Screenshot
