@@ -7,8 +7,6 @@ Enumerate Subdomains Through Google Dorks
 1. Bypassed Page Filter
 2. Use with VPN or Torify(tor) if Google block your IP.
 
-Linux
-
 ## Usage
 
 Linux
