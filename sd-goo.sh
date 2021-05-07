@@ -7,7 +7,10 @@ tar=$1
 sfe=$(echo "$tar" | cut -d "." -f 1)
 echo -n "+-www" > gsd-tmp.txt
 
-while [ TRUE ]
+runtime="30 second"
+endtime=$(date -ud "$runtime" +%s)
+
+while [[ $(date -u +%s) -le $endtime ]]
 do
 
 for gsd in $(cat gsd-tmp.txt); do
