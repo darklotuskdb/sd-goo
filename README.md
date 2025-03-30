@@ -39,8 +39,6 @@ The tool requires two arguments:
 - **`-d`**: The domain to search for subdomains.
 - **`-c`**: The cookies string to bypass CAPTCHA protection, which can be copied from Burp Suite or your browser.
 
-The runtime duration defaults to **40 seconds** if not specified. You can use the **`-r`** flag to change the runtime.
-
 ### Syntax:
 
 ```
