@@ -47,10 +47,11 @@ The tool requires two arguments:
 
 ### Example:
 Copy the complete "Cookie" header from the Burp Suite.
+
 ![Image](https://github.com/user-attachments/assets/7fec6fc8-e0fa-4c8b-859a-c72b29d1a3de)
 
 ```
-./sd-goo.sh -d example.com -c "Cookie: session=leet; id=1337;..."
+./sd-goo.sh -d example.com -c "Cookie: session=leet; id=1337;..." | tee output.txt
 ```
 ![Image](https://github.com/user-attachments/assets/32a4e25a-054e-49da-a13e-5af4f22b4be7)
 
@@ -63,19 +64,16 @@ Copy the complete "Cookie" header from the Burp Suite.
 - **Automatic Page Navigation:** Other tools require you to manually click through pages or repeat the dorking process several times. sd-goo.sh takes care of that automatically, fetching results from multiple pages at once.
 - **Cookie-based Authentication:** Many Google dorking tools struggle with CAPTCHA blocks. With sd-goo.sh, you can bypass CAPTCHA protection by providing cookies, making it more efficient and less prone to interruption.
 
-### Screenshot
-![sd-goo](https://user-images.githubusercontent.com/29382875/117357011-0b3f6000-aed2-11eb-8f9a-1c4e9f5e0113.png)
-
 
 ## Donate
 [BuyMeACoffee](https://www.buymeacoffee.com/darklotus) If you like my work <3
 
 ## About Me
 
-* **DarkLotus** - *Cyber Security Researcher* - [DarkLotusKDB](https://github.com/darklotuskdb)
+* **DarkLotus** - *CyberSecurity Researcher* - [DarkLotusKDB](https://github.com/darklotuskdb)
 
 ### Social Media Handles
 * [Twitter](https://twitter.com/darklotuskdb)
-* [Medium](https://medium.com/@darklotus)
+* [Medium](https://darklotus.medium.com/)
 * [Linkedin](https://www.linkedin.com/in/kamaldeepbhati/)
 * [Instagram](https://www.instagram.com/kamaldeepbhati/)
