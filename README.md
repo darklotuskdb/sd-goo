@@ -46,10 +46,13 @@ The tool requires two arguments:
 ```
 
 ### Example:
+Copy the complete "Cookie" header from the Burp Suite.
+![Image](https://github.com/user-attachments/assets/7fec6fc8-e0fa-4c8b-859a-c72b29d1a3de)
 
 ```
 ./sd-goo.sh -d example.com -c "Cookie: session=leet; id=1337;..."
 ```
+![Image](https://github.com/user-attachments/assets/32a4e25a-054e-49da-a13e-5af4f22b4be7)
 
 ## How It Works:
 - **Automated Page Navigation:** Once you start the tool, it begins searching for subdomains related to the specified domain using Google Dorks. It will automatically go to the next pages and fetch all available results.
