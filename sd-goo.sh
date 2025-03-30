@@ -1,10 +1,11 @@
 #!/bin/bash
 
+# ================ Made By Kamaldeep Bhati (@DarkLotusKDB) <3 ===================
 # Display usage
 usage() {
   echo "Usage: $0 -d <domain> -c <cookies>"
   echo "  -d  Domain to search (e.g., example.com)"
-  echo "  -c  Cookies for the request (e.g., 'Cookie: __Secure-3PSID=val1; __Secure-3PSIDTS=val2')"
+  echo "  -c  Paste the Cookies for the request from Burp Suite (e.g., 'Cookie: session=leet; id=1337;...')"
   exit 1
 }
 
@@ -69,3 +70,4 @@ do
   cat .gsd-tmp1.txt | tr '+-' '\n' | sort -u | sed 's/^/+-/' | tr -d '\n' > .gsd-tmp.txt
 done
 
+#================ Made By Kamaldeep Bhati (@DarkLotusKDB) <3 ===================
