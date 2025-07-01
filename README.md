@@ -65,7 +65,7 @@ Copy the complete "Cookie" header from the Burp Suite.
 - **Cookie-based Authentication:** Many Google dorking tools struggle with CAPTCHA blocks. With sd-goo.sh, you can bypass CAPTCHA protection by providing cookies, making it more efficient and less prone to interruption.
 
 
-## Donate
+## Like my work?
 [BuyMeACoffee](https://www.buymeacoffee.com/darklotus) If you like my work <3
 
 ## About Me
